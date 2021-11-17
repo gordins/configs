@@ -1,0 +1,159 @@
+{
+  "$help": "https://aka.ms/terminal-documentation",
+  "$schema": "https://aka.ms/terminal-profiles-schema",
+  "actions": [
+    {
+      "command": {
+        "action": "switchToTab",
+        "index": 5
+      },
+      "keys": "ctrl+6"
+    },
+    {
+      "command": {
+        "action": "switchToTab",
+        "index": 8
+      },
+      "keys": "ctrl+9"
+    },
+    {
+      "command": {
+        "action": "switchToTab",
+        "index": 2
+      },
+      "keys": "ctrl+3"
+    },
+    {
+      "command": "unbound",
+      "keys": "ctrl+x"
+    },
+    {
+      "command": "closePane",
+      "keys": "ctrl+w"
+    },
+    {
+      "command": "find",
+      "keys": "ctrl+f"
+    },
+    {
+      "command": {
+        "action": "switchToTab",
+        "index": 4
+      },
+      "keys": "ctrl+5"
+    },
+    {
+      "command": {
+        "action": "switchToTab",
+        "index": 0
+      },
+      "keys": "ctrl+1"
+    },
+    {
+      "command": {
+        "action": "copy",
+        "singleLine": false
+      },
+      "keys": "ctrl+c"
+    },
+    {
+      "command": "paste",
+      "keys": "ctrl+v"
+    },
+    {
+      "command": {
+        "action": "newTab"
+      },
+      "keys": "ctrl+t"
+    },
+    {
+      "command": {
+        "action": "switchToTab",
+        "index": 3
+      },
+      "keys": "ctrl+4"
+    },
+    {
+      "command": {
+        "action": "switchToTab",
+        "index": 7
+      },
+      "keys": "ctrl+8"
+    },
+    {
+      "command": {
+        "action": "switchToTab",
+        "index": 1
+      },
+      "keys": "ctrl+2"
+    },
+    {
+      "command": {
+        "action": "switchToTab",
+        "index": 6
+      },
+      "keys": "ctrl+7"
+    }
+  ],
+  "copyFormatting": "none",
+  "copyOnSelect": false,
+  "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+  "profiles": {
+    "defaults": {
+      "colorScheme": "Vitesse",
+      "font": {
+        "face": "Geist Mono"
+      }
+    },
+    "list": [
+      {
+        "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+        "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+        "hidden": false,
+        "name": "Windows PowerShell",
+        "startingDirectory": "C:\\Projects"
+      },
+      {
+        "commandline": "%SystemRoot%\\System32\\cmd.exe",
+        "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+        "hidden": false,
+        "name": "Command Prompt",
+        "startingDirectory": "C:\\Projects"
+      },
+      {
+        "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+        "hidden": false,
+        "name": "Azure Cloud Shell",
+        "source": "Windows.Terminal.Azure",
+        "startingDirectory": "C:\\Projects"
+      }
+    ]
+  },
+  "schemes": [
+    {
+      "background": "#121212",
+      "black": "#777777",
+      "blue": "#6394bf",
+      "brightBlack": "#393a34",
+      "brightBlue": "#6394bf",
+      "brightCyan": "#5eaab5",
+      "brightGreen": "#4d9375",
+      "brightPurple": "#d9739f",
+      "brightRed": "#cb7676",
+      "brightWhite": "#dbd7ca",
+      "brightYellow": "#e6cc77",
+      "cursorColor": "#4d9375",
+      "cyan": "#5eaab5",
+      "foreground": "#dbd7ca",
+      "green": "#4d9375",
+      "name": "Vitesse",
+      "purple": "#d9739f",
+      "red": "#cb7676",
+      "selectionBackground": "#4d9375",
+      "white": "#ffffff",
+      "yellow": "#e6cc77"
+    }
+  ],
+  "theme": "system",
+  "themes": []
+}
