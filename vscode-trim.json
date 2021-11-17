@@ -1,0 +1,73 @@
+{
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "files.exclude": {
+        "**/.DS_Store": true,
+        "**/.git": true,
+        "**/.hg": true,
+        "**/*.js": {
+            "when": "$(basename).ts"
+        },
+        "**/.svn": true,
+        "**/*.d.ts*": true,
+        "**/CVS": true,
+        "**/Thumbs.db": true
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.accessibilitySupport": "off",
+    "editor.codeLens": false,
+    "editor.fontFamily": "Jetbrains Mono NL",
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "modificationsIfAvailable",
+    "editor.minimap.enabled": false,
+    "editor.tabSize": 4,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "extensions.ignoreRecommendations": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": false,
+    "files.trimTrailingWhitespace": true,
+    "git.confirmSync": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "material-icon-theme.hidesExplorerArrows": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "telemetry.telemetryLevel": "off",
+    "terminal.external.osxExec": "Warp.app",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.lineHeight": 1.1,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
+    "workbench.editor.tabCloseButton": "off",
+    "workbench.fontAliasing": "antialiased",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.productIconTheme": "material-product-icons",
+    "workbench.startupEditor": "none",
+    "workbench.tree.indent": 16,
+    "workbench.colorCustomizations": {
+        "[Base16 Tomorrow Dark]": {
+            "statusBar.background": "#3FBF7F",
+            "statusBar.foreground": "#000000",
+        }
+    },
+    "workbench.colorTheme": "Base16 Tomorrow Dark",
+    "window.zoomLevel": 1,
+}
