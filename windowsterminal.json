@@ -1,4 +1,5 @@
 {
+    "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
     "actions": [
         {
@@ -9,12 +10,37 @@
             "keys": "ctrl+6"
         },
         {
-            "command": "closePane",
-            "keys": "ctrl+w"
+            "command": {
+                "action": "switchToTab",
+                "index": 8
+            },
+            "keys": "ctrl+9"
+        },
+        {
+            "command": {
+                "action": "switchToTab",
+                "index": 2
+            },
+            "keys": "ctrl+3"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+x"
         },
         {
             "command": "find",
             "keys": "ctrl+f"
+        },
+        {
+            "command": "closePane",
+            "keys": "ctrl+w"
+        },
+        {
+            "command": {
+                "action": "switchToTab",
+                "index": 4
+            },
+            "keys": "ctrl+5"
         },
         {
             "command": {
@@ -22,6 +48,13 @@
                 "index": 0
             },
             "keys": "ctrl+1"
+        },
+        {
+            "command": {
+                "action": "copy",
+                "singleLine": false
+            },
+            "keys": "ctrl+c"
         },
         {
             "command": "paste",
@@ -42,17 +75,6 @@
         },
         {
             "command": {
-                "action": "copy",
-                "singleLine": false
-            },
-            "keys": "ctrl+c"
-        },
-        {
-            "command": "unbound",
-            "keys": "ctrl+x"
-        },
-        {
-            "command": {
                 "action": "switchToTab",
                 "index": 7
             },
@@ -68,30 +90,9 @@
         {
             "command": {
                 "action": "switchToTab",
-                "index": 4
-            },
-            "keys": "ctrl+5"
-        },
-        {
-            "command": {
-                "action": "switchToTab",
-                "index": 2
-            },
-            "keys": "ctrl+3"
-        },
-        {
-            "command": {
-                "action": "switchToTab",
                 "index": 6
             },
             "keys": "ctrl+7"
-        },
-        {
-            "command": {
-                "action": "switchToTab",
-                "index": 8
-            },
-            "keys": "ctrl+9"
         }
     ],
     "copyFormatting": "none",
@@ -99,23 +100,22 @@
     "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
     "profiles": {
         "defaults": {
-            "colorScheme": "Dracula Synthwave",
+            "colorScheme": "Purple gordin",
             "cursorShape": "underscore",
             "font": {
-                "size": 13,
-                "weight": "light"
+                "face": "JetBrains Mono",
+                "size": 12,
+                "weight": "normal"
             }
         },
         "list": [
             {
-                "commandline": "powershell.exe",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
                 "name": "Windows PowerShell",
                 "startingDirectory": "C:\\Projects"
             },
             {
-                "commandline": "cmd.exe",
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
                 "name": "Command Prompt",
@@ -176,6 +176,29 @@
             "selectionBackground": "#FFFFFF",
             "white": "#CCCCCC",
             "yellow": "#C19C00"
+        },
+        {
+            "background": "#1E1E3F",
+            "black": "#000000",
+            "blue": "#6943FF",
+            "brightBlack": "#5C5C61",
+            "brightBlue": "#6943FF",
+            "brightCyan": "#80FCFF",
+            "brightGreen": "#3AD900",
+            "brightPurple": "#FB94FF",
+            "brightRed": "#E36A6A",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FAD000",
+            "cursorColor": "#FAD000",
+            "cyan": "#80FCFF",
+            "foreground": "#FFFFFF",
+            "green": "#3AD900",
+            "name": "Purple gordin",
+            "purple": "#FF2C70",
+            "red": "#E36A6A",
+            "selectionBackground": "#7448AF",
+            "white": "#FFFFFF",
+            "yellow": "#FAD000"
         },
         {
             "background": "#282C34",
@@ -337,29 +360,6 @@
             "selectionBackground": "#FFFFFF",
             "white": "#C0C0C0",
             "yellow": "#808000"
-        },
-        {
-            "background": "#2D2B55",
-            "black": "#21222C",
-            "blue": "#BD93F9",
-            "brightBlack": "#6272A4",
-            "brightBlue": "#D6ACFF",
-            "brightCyan": "#A4FFFF",
-            "brightGreen": "#69FF94",
-            "brightPurple": "#FF92DF",
-            "brightRed": "#FF6E6E",
-            "brightWhite": "#FFFFFF",
-            "brightYellow": "#FFFFA5",
-            "cursorColor": "#72F1B8",
-            "cyan": "#8BE9FD",
-            "foreground": "#F8F8F2",
-            "green": "#50FA7B",
-            "name": "Dracula Synthwave",
-            "purple": "#FF79C6",
-            "red": "#FF5555",
-            "selectionBackground": "#181521",
-            "white": "#F8F8F2",
-            "yellow": "#F1FA8C"
         }
     ]
 }
